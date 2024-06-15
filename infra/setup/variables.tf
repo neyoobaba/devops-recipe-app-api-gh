@@ -4,7 +4,7 @@ variable "tf_state_bucket" {
   default     = "new-recipes-app-tf-state"
 }
 
-variable "tf_state_lock_tables" {
+variable "tf_state_lock_table" {
   description = "name of the DynamoDB table for TF state locking"
   default     = "new-recipe-app-api-tf-lock"
 }
